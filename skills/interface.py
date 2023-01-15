@@ -4,10 +4,9 @@ from abc import ABC, abstractmethod
 class BaseSkill(ABC):
 
     @abstractmethod
-    def run(self, params: str) -> str:
+    def run(self) -> str:
         """
 
-        @param params: str
         @return: str
         """
 
